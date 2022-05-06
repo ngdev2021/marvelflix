@@ -1,0 +1,84 @@
+.body {
+  margin-left: 80px;
+  display: flex;
+  flex-direction: row ;
+  justify-content: flex-start;
+  width: calc(100% - 200px);
+  position: absolute;
+  color: whitesmoke;
+  top: 25px;
+  left: 80px;
+
+}
+
+.left_panel {
+  line-height: 25px;
+  font-size: 35px;
+  padding: 25px;
+  background-color: dimgrey;
+  width: 25vw;
+
+}
+
+.contact_info {
+  font-size: 25px;
+  display: flex;
+  flex-direction: column;
+  font-size: medium;
+
+}
+
+.languages, .libraries, .repositories, .attributes {
+  line-height: 45px;
+}
+
+.skills {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  overflow-wrap:break-word ;
+
+}
+
+.main_content {
+  margin-left: 25px;
+  margin-bottom: 25px;
+  margin-top: 10px;
+}
+
+.name, .title, .summary_title, .professional_summary, .work_experience_title, .workHistory, .education {
+  margin-top: 25px;
+  line-height: 20px;
+
+}
+
+.name {
+  font-size: xx-large;
+
+}
+
+.title {
+  font-size: larger;
+
+}
+
+.summary_title {
+  font-size: x-large;
+  line-height: 18px;
+
+}
+
+.professional_summary {
+  line-height: 18px;
+
+}
+
+.work_experience_tile {
+
+}
+.workHistory {
+
+}
+.education {
+
+}

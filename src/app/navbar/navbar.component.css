@@ -1,0 +1,160 @@
+@import "../app.component.css";
+@import "../../styles.css";
+@import "../cards/cards.component.css";
+
+main {
+    margin-left: 5rem
+}
+
+.navbar {
+    width: 5rem;
+    height: 100vh;
+    background-color: var(--bg-primary);
+    transition: ease-in-out 500ms;
+    position: fixed;
+    z-index: 1;
+}
+
+.navbar-nav {
+    list-style: none;
+    padding: 0;
+    margin-left: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: sticky;
+
+    height: 100%;
+}
+
+.nav-item {
+    width: 100%;
+}
+
+.nav-item:last-child {
+    margin-top: auto;
+}
+
+.nav-link {
+    display: flex;
+    align-items: center;
+    height: 5rem;
+    color: var(--text-primary);
+    text-decoration: none;
+
+}
+
+.link-text {
+    margin-left: 1rem;
+    color: white;
+
+}
+
+.list-group {
+    margin-left: 3rem;
+    display: flex;
+    position: 0;
+    flex-direction: column;
+    z-index: 1;
+    margin: 0rem;
+    padding-right: 5rem;
+
+}
+
+.list-group-item:hover {
+    /* transform-origin:3px; */
+    /* transform: rotatey(180deg); */
+
+     /* transition-duration: 1s;  */
+     transition: all .5s ease;
+     font-size: 2rem;
+     will-change: contents;
+}
+
+.list-group-item {
+    margin: 0rem;
+    padding: 3rem;
+}
+
+.list-group-item-bottom {
+    margin: 0rem;
+    margin-top: 23rem;
+    padding: 3rem;
+}
+.list-group-item-bottom:hover {
+    margin: 0rem;
+    margin-top: 23rem;
+    padding: 3rem;
+    transition: all .5s ease;
+    font-size: 2rem;
+    will-change: contents;
+}
+
+.nav-link svg {
+
+    width: 2rem;
+    min-width: 2rem;
+    margin: 1.5rem 1.5rem;
+}
+
+.navbar:hover {
+    width: 10rem;
+    justify-content: center;
+    margin-right: 3rem;
+
+
+}
+.navbar:hover .card-list {
+    width: 15rem;
+    justify-content: center;
+    margin-right: 3rem;
+
+
+}
+
+.navbar:hover .fa-angle-double-right
+{
+    transform-origin:3px;
+transform: rotateY(180deg);
+transition-duration: .6s;
+
+}
+
+
+.navbar:hover .link-text  {
+    display:block;
+}
+
+.fa-primary {
+    color: #ff7eee;
+}
+
+.fa-secondary {
+    color: #df49a6;
+}
+
+.fa-primary,
+.fa-secondary {
+    transition: var(--transition-speed);
+}
+
+.fa-home:before {
+    content: "\f015";
+    color: #FD3A4A
+    ;
+}
+.fa-film:before {
+    content: "\f008";
+    color: #3F26BF
+
+}
+.fa.fa-television:before {
+    color: #FFD12A
+    ;
+    content: "\f26c";
+}
+.fa-cog:before {
+    color: #299617;
+    content: "\f013";
+}
+

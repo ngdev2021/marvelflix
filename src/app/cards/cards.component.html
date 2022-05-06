@@ -1,0 +1,109 @@
+<!-- <h1 class=".title">MarvelFlix</h1> -->
+<!-- <div
+  class="card-container"
+  style="display: flex; flex-direction: row; width: 100vw; margin-left: 5rem"
+>
+  <div #scrollMe class="card-list" style="flex: 1">
+    <ng-container class="card-container">
+      <div class="button-wrap">
+        <button (click)="scrollRight()" class="x">
+          <i class="fas fa-angle-double-left"></i>
+        </button>
+        <button (click)="scrollLeft()" class="y">
+          <i class="fas fa-angle-double-right"></i>
+        </button>
+      </div>
+      <article class="card" *ngFor="let m of getMovies.movies$ | async">
+        <header class="card-header">
+          <div class="card-header">
+            <!-- <h2 mat-dialog-title>{{ m.title }}</h2> -->
+            <img src="{{ m.cover_url }}" />
+            <p>Release Date: {{ m.release_date }}</p>
+            <p>Box Office: ${{ m.box_office | number }}</p>
+            <p>Timeline Order: {{ m.chronology }}</p>
+            <p>Directed by: {{ m.directed_by }}</p>
+            <!-- <p class="overview-text" mat-dialog-content>{{ m.overview }}</p> -->
+            <div mat-dialog-actions>
+              <button mat-button mat-dialog-close>Close</button>
+            </div>
+          </div>
+          <button class="dialog-box" mat-button (click)="openDialog()">
+            Launch dialog
+          </button>
+        </header>
+      </article>
+    </ng-container>
+  </div>
+
+  <!-- <article class="card">
+    <header class="card-header">
+      <p>November 16, 2021</p>
+      <h2>Disrespect</h2>
+    </header>
+  </article> -->
+</div>
+<div
+  class="card-container"
+  style="display: flex; flex-direction: row; width: 100vw; margin-left: 5rem"
+>
+  <div #scrollMe class="card-list" style="flex: 1">
+    <ng-container class="card-container">
+      <div class="tv-button-wrap">
+        <button (click)="scrollRight()" class="tv-x">
+          <i class="fas fa-angle-double-left"></i>
+        </button>
+        <button (click)="scrollLeft()" class="tv-y">
+          <i class="fas fa-angle-double-right"></i>
+        </button>
+      </div>
+      <article class="card" *ngFor="let t of getMovies.tvShows$ | async">
+        <header class="card-header">
+          <div class="card-header">
+            <!-- <h2>{{ m.title }}</h2> -->
+            <img src="{{ t.cover_url }}" />
+            <!-- <p>{{ m.release_date }}</p> -->
+            <!-- <p class="overview-text">{{ m.overview }}</p> -->
+          </div>
+        </header>
+      </article>
+    </ng-container>
+  </div>
+</div>
+<div
+  class="card-container"
+  style="display: flex; flex-direction: row; width: 100vw; margin-left: 5rem"
+>
+  <div #scrollMe class="card-list" style="flex: 1">
+    <ng-container class="card-container">
+      <div class="button-wrap">
+        <button (click)="scrollRight()" class="x">
+          <i class="fas fa-angle-double-left"></i>
+        </button>
+        <button (click)="scrollLeft()" class="y">
+          <i class="fas fa-angle-double-right"></i>
+        </button>
+      </div>
+      <article class="card" *ngFor="let c of getMovies.comics$ | async">
+        <header class="card-header">
+          <div class="card-header">
+            <!-- <h2>{{ m.title }}</h2> -->
+            <img src="{{ c.results.title }}" />
+            <!-- <p>{{ m.release_date }}</p> -->
+            <!-- <p class="overview-text">{{ m.overview }}</p> -->
+          </div>
+        </header>
+      </article>
+    </ng-container>
+  </div>
+
+  <!-- <article class="card">
+    <header class="card-header">
+      <p>November 16, 2021</p>
+      <h2>Disrespect</h2>
+    </header>
+  </article> -->
+</div>
+<div
+  class="card-container"
+  style="display: flex; flex-direction: row; width: 100vw; margin-left: 5rem"
+></div> -->
