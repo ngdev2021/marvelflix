@@ -11,6 +11,29 @@
 
 }
 
+.phone_number_wrapper {
+  font-size: xx-large;
+  margin-bottom: 20px;
+
+}
+
+.phone_number {
+  font-size: large;
+}
+
+.linkedin_title {
+  font-size: xx-large;
+  margin-bottom: 20px;
+}
+
+.email_wrapper {
+
+}
+
+.contact_title {
+  margin-bottom: 20px;
+}
+
 .left_panel {
   line-height: 25px;
   font-size: 35px;
@@ -51,6 +74,8 @@
   margin-left: 25px;
   margin-bottom: 25px;
   margin-top: 10px;
+  line-height: 28px;
+  font-size: large;
 }
 
 .name, .title, .summary_title, .professional_summary, .work_experience_title, .workHistory, .education {
@@ -76,16 +101,23 @@
 }
 
 .professional_summary {
+  line-height: 22px;
+  font-size: large;
+
+}
+
+.work_experience_title {
+  font-size: x-large;
   line-height: 18px;
 
 }
-
-.work_experience_tile {
-
-}
 .workHistory {
+  line-height: 22px;
+
 
 }
 .education {
+  font-size: x-large;
+  line-height: 18px;
 
 }

@@ -1,14 +1,21 @@
 <div class="body">
 <div class="left_panel">
-<div class="contact">Contact Info
+<div class="contact"><div class="contact_title">Contact Info</div>
   <div class="contact_info">
     <div>{{contact.address}}</div>
     <br>
-    <div *ngFor="let email of contact.email"><br>{{email}}</div>
+    <div class="email_wrapper">
+      <div class="email" *ngFor="let email of contact.email">{{email}}</div>
+    </div>
     <br>
-    <div>{{contact.linkedin}}</div>
+
+    <div class="linkedin_title"> Linkedin
+    </div>
+    <div><a href="{{contact.linkedin}}" target="_blank">{{contact.linkedin}}</a></div>
     <br>
-    <div *ngFor="let number of contact.phoneNumber"><br>{{number}}</div>
+    <div class="phone_number_wrapper">Phone
+    </div>
+    <div class="phone_number" *ngFor="let number of contact.phoneNumber">{{number}}</div>
   </div>
 </div>
 <br>
@@ -79,11 +86,9 @@
 
   <div class="education">EDUCATION</div>
   <br>
-    Cloud DevOps Training<br>
-    Level Up in Tech<br>
-    Mean Stack Development<br>
-    Agape Coders - Maryland<br>
-    High School Diploma<br>
-    Crowley High School – Crowley, Tx
+    Cloud DevOps Training - Level Up in Tech<br>
+
+    High School Diploma - Crowley High School <br>
+    Crowley, Texas
   </div>
   </div>
