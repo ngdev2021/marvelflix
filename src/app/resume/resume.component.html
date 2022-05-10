@@ -19,16 +19,16 @@
 </div>
 <br>
 <div class="skills_wrapper">
-  <div class="languages">Languages
-    <div *ngFor=" let language of attributes.languages">{{language}}</div>
+  <div class="languages ">Languages
+    <div class="attributes" *ngFor=" let language of attributes.languages">{{language}}</div>
   </div>
   <br>
-  <div *ngFor="let libraries of attributes.libraries" class="libraries">Libraries
-    <div>{{libraries}}</div>
+  <div  class="libraries">Libraries
+    <div class="attributes" *ngFor="let libraries of attributes.libraries">{{libraries}}</div>
   </div>
   <br>
-    <div *ngFor="let repositories of attributes.repositories" class="repositories">Repositories
-    <div>{{repositories}}</div>
+    <div  class="repositories">Repositories
+    <div class="attributes" *ngFor="let repositories of attributes.repositories">{{repositories}}</div>
   </div>
 </div>
 

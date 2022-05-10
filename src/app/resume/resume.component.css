@@ -40,6 +40,13 @@
 
 }
 
+.attributes {
+  /* border: 1px solid gray; */
+  font-size: 22px;
+  padding-left: 15px;
+
+}
+
 .main_content {
   margin-left: 25px;
   margin-bottom: 25px;
